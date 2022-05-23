@@ -20,13 +20,13 @@ function DataFecthing() {
         <input type="text" value={id} onChange={event => setId(event.target.value)} br/>
         {posts.title}
         <ul>
-            {/* {
+             {
                 posts.map(post =>(
                     <li key= {post.id} >
                     {post.userId},{post.title} 
                     </li>
                 ))
-            } */}
+            } 
         </ul>
     </div>
   )}
